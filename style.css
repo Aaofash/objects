@@ -3,8 +3,30 @@
     width: 0;
     padding: 0;
 }
-h2{
+body{
     align-items: center;
+    
+}
+header{
     width: 100%;
-    padding: 50%;
+    padding-left: 45vw;
+    font-size: xx-large;
+    padding-top: 5vw;
+}
+
+.btn-primary{
+    width: 100px;
+    height: 50px;
+    font-size: large;
+    margin-left: 10vw;
+}
+.buttonFlex{
+    display:flex;
+    margin-left: 15vw;
+}
+.buttonFlex button{
+    margin: 40px;
+    padding-left: 10px;
+    padding-right: 40px;
+
 }
