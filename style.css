@@ -3,10 +3,7 @@
     width: 0;
     padding: 0;
 }
-body{
-    align-items: center;
-    
-}
+
 header{
     width: 100%;
     padding-left: 45vw;
@@ -18,15 +15,10 @@ header{
     width: 100px;
     height: 50px;
     font-size: large;
-    margin-left: 10vw;
-}
-.buttonFlex{
-    display:flex;
-    margin-left: 15vw;
-}
-.buttonFlex button{
-    margin: 40px;
-    padding-left: 10px;
-    padding-right: 40px;
 
+}
+main{
+    padding-left: 0vw;
+    display: grid;
+    grid-template-columns: 120px 120px 120px 120px;
 }
