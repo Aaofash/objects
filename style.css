@@ -3,22 +3,38 @@
     width: 0;
     padding: 0;
 }
-
+body{
+    background-color: black;
+}
 header{
     width: 100%;
     padding-left: 45vw;
     font-size: xx-large;
-    padding-top: 5vw;
+    padding-top: 10vw;
+    color: white;
 }
 
-.btn-primary{
+.btn{
     width: 100px;
     height: 50px;
     font-size: large;
-
+    color:black;
+    background-color: white;
+}
+    
+.btn:hover{
+    color:white;
+    background-color: black;
+}
+div{
+    font-size: xx-large;
+    padding-left: 45vw;
+    padding-top: 10vw;
+    color:white;
 }
 main{
-    padding-left: 0vw;
+    padding-left: 35vw;
+    padding-top: 10vw;
     display: grid;
     grid-template-columns: 120px 120px 120px 120px;
 }
